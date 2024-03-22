@@ -696,6 +696,7 @@ h6 {
 
 .tolak-owl__carousel--with-shadow .owl-stage-outer {
   overflow: visible;
+
 }
 .tolak-owl__carousel--with-shadow .owl-item {
   opacity: 0;
@@ -11836,7 +11837,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   border-bottom: 1px solid var(--tolak-border-color, #dddddd);
   background-color: var(--tolak-white, #fff);
-  padding: 0 0 102px;
+  /* padding: 0 0 102px; */
 }
 @media (max-width: 767px) {
   .client-carousel {
@@ -11923,7 +11924,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .client-carousel__one__item img {
   transition: 500ms;
-  max-width: 122px;
+  max-width: 100%;
   width: auto;
   transition: all 500ms ease;
 }
@@ -17225,5 +17226,8 @@ p{
 
 .about-two__content__list li{
   font-size: 14px;
+}
+.owl-stage{
+  height: 25vh;
 }
 /*# sourceMappingURL=tolak.css.map */

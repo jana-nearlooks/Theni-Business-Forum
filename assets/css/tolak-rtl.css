@@ -11923,7 +11923,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .client-carousel__one__item img {
   transition: 500ms;
-  max-width: 122px;
+  max-width: 300px;
   width: auto;
   transition: all 500ms ease;
 }
